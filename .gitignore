@@ -31,7 +31,6 @@ proguard/
 .navigation/
 
 .idea
-/build
 /app/build
 *.iml
 

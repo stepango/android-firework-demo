@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Firework</string>
+    <string name="pause_button">Pause</string>
+    <string name="viewXML">XML</string>
+</resources>

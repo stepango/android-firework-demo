@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<fireworks>
+    <groups>
+        <group-params name="group1" sizeX="1" sizeY="1" sizeZ="1"
+                      type="0">
+            <parameters id="1">
+                <updaters-list>
+                    <updater name="PositionUpdater" id="1"/>
+                    <updater name="DeleteUpdater" id="2"/>
+                    <updater name="ExplosiveUpdater" id="3"/>
+                </updaters-list>
+            </parameters>
+            <set-point-params>
+                <point-params
+                    WhatExplose="standart_salut" divAmt="5" divColorA="0.5"
+                    divColorB="0.5" divColorG="0.5"
+                    divColorR="0.5" divExplosionTime="10" divSpeedX="1" divSpeedY="1"
+                    divSpeedZ="1" divTimeLife="20"
+                    id="1" matAmt="16" matColorA="0.5" matColorB="0.5"
+                    matColorG="0.5" matColorR="0.5" matExplosionTime="50" matSpeedX="0"
+                    matSpeedY="10" matSpeedZ="0" matTimeLife="50" normalX="1"
+                    normalY="0" normalZ="0" x="0"
+                    y="0" z="0"/>
+            </set-point-params>
+        </group-params>
+    </groups>
+</fireworks>
+

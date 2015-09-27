@@ -9,18 +9,17 @@
             type="0">
             <parameters id="1">
                 <updaters-list>
-                    <updater
-                        name="FWMover"
-                        id="1">
-                    </updater>
-                    <updater
-                        name="FWDeleter"
-                        id="2">
-                    </updater>
-                    <updater
-                        name="FWPolusioner"
-                        id="3">
-                    </updater>
+                    <updaters-list>
+                        <updater
+                            name="PositionUpdater"
+                            id="1"/>
+                        <updater
+                            name="DeleteUpdater"
+                            id="2"/>
+                        <updater
+                            name="ExplosiveUpdater"
+                            id="3"/>
+                    </updaters-list>
                 </updaters-list>
             </parameters>
             <set-point-params>
@@ -52,7 +51,7 @@
                     normalZ="0"
                     x="0"
                     y="0"
-                    z="0"></point-params>
+                    z="0"/>
             </set-point-params>
         </group-params>
     </groups>

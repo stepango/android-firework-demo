@@ -122,13 +122,13 @@ public class XMLReader {
                     String updaterName = resource
                             .getAttributeValue(null, Tags.NAME);
                     if (updaterName != null) {
-                        if (updaterName.equals("FWMover")) {
+                        if (updaterName.equals("PositionUpdater")) {
                             currentUpdater = new PositionUpdater();
                         }
-                        if (updaterName.equals("FWDeleter")) {
+                        if (updaterName.equals("DeleteUpdater")) {
                             currentUpdater = new DeleteUpdater();
                         }
-                        if (updaterName.equals("FWPolusioner")) {
+                        if (updaterName.equals("ExplosiveUpdater")) {
                             currentUpdater = new ExplosiveUpdater();
                         }
                         currentGroupParams.getUpdatersList().add(currentUpdater);
@@ -313,13 +313,13 @@ public class XMLReader {
                 if (node.getNodeName().equals(Tags.UPDATER)) {
                     Node updaterNode = attrs.getNamedItem(Tags.NAME);
                     String updaterName = updaterNode.getNodeValue();
-                    if (updaterName.equals("FWMover")) {
+                    if (updaterName.equals("PositionUpdater")) {
                         currentUpdater = new PositionUpdater();
                     }
-                    if (updaterName.equals("FWDeleter")) {
+                    if (updaterName.equals("DeleteUpdater")) {
                         currentUpdater = new DeleteUpdater();
                     }
-                    if (updaterName.equals("FWPolusioner")) {
+                    if (updaterName.equals("ExplosiveUpdater")) {
                         currentUpdater = new ExplosiveUpdater();
                     }
                     currentGroupParams.getUpdatersList().add(currentUpdater);
